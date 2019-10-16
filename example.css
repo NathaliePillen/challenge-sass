@@ -1,0 +1,42 @@
+h1 {
+    background-color: #2b2757;
+    color: #aa1391;
+    font-size: 24px;
+    height: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.before {
+    font-size: 14px;
+}
+
+.after {
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    margin: 20px;
+    color: #aa1391;
+    background: #2b2757;
+}
+
+.after:hover {
+    color: pink;
+}
+
+body {
+    font: 100% Helvetica, sans-serif;
+    color: #2b2757;
+}
+
+p {
+    color: #39363f;
+}
+
+
+/*# sourceMappingURL=example.css.map */
