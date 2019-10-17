@@ -1,0 +1,46 @@
+//variables
+$font-stack: Helvetica,
+sans-serif;
+$primary-color: #2b2757;
+$second-color: rgb(170, 19, 145);
+$text-color: rgb(57, 54, 63);
+$font-sizes: ("small": 14px, "medium": 16px, "large": 20px, "xlarge": 24px);
+$font-weights: ("small": 400, "medium": 500, "large": 700);
+h1 {
+    background-color: $primary-color;
+    color: $second-color;
+    font-size: map-get($font-sizes, xlarge);
+    height: 50px;
+    text-align: center;
+    font-weight: map-get($font-weights, large);
+}
+
+h2 {
+    font-size: map-get($font-sizes, large);
+    font-weight: map-get($font-weights, medium)
+}
+
+.before {
+    font-size: map-get($font-sizes, small);
+}
+
+.after {
+    font-size: map-get($font-sizes, medium);
+    font-weight: map-get($font-weights, large);
+    height: 50px;
+    margin: 20px;
+    color: $second-color;
+    background: $primary-color;
+    &:hover {
+        color: pink;
+    }
+}
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+p {
+    color: $text-color;
+}
